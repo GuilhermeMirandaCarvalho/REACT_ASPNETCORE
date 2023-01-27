@@ -20,7 +20,7 @@ namespace ProAtividade.API.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
-            return $"primeiro get com id {id}";
+            return $"Este é meu Primeiro get com id {id}";
         }
 
 
